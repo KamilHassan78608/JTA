@@ -1,22 +1,29 @@
-import Navbar from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Hero from './components/Hero'
-import Courses from './components/Courses'
+import Home from './pages/Home'
+import SignIn from './pages/SignIn'
+import SignUp from './pages/SignUp'
+import EditProfile from './pages/EditProfile'
 import Instructors from './components/Instructors'
-import Reviews from './components/Reviews'
-import Footer from './components/Footer'
-import ReviewForm from './components/ReviewForm'
+import CourseDetails from './pages/CourseDetails'
+import AnnouncementDetails from './pages/AnnouncementDetails'
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Courses />
-      <Instructors />
-      <Reviews />
-      <ReviewForm />
-      <Footer />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='edit-profile' element={<EditProfile />} />
+
+        
+        <Route path='/instructor' element={<Instructors />} />
+        <Route path="/courses/:slug" element={<CourseDetails />} />
+        <Route path="/announcements/:slug" element={<AnnouncementDetails />} />
+        
+
+        <Route path='/sign-in' element={<SignIn />} />
+        <Route path="/sign-up/*" element={<SignUp />} />
+      </Routes>
     </div>
   )
 }
