@@ -1,4 +1,3 @@
-
 const Footer = () => {
   const quickLinks = [
     { name: "Home", href: "#home" },
@@ -116,7 +115,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-xs text-gray-500">
-          © 2026 Jameel Tech Academy. All rights reserved. Concept Design.
+          © 2026 Jamiat Tech Academy. All rights reserved. Concept Design.
         </div>
 
       </div>

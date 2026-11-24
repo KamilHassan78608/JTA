@@ -11,16 +11,20 @@ const Navbar = () => {
   const [profileDropDown, setProfileDropDown] = useState(false);
 
   const dropdownRef = useRef(null);
+  const mobileDropdownRef = useRef(null);
 
   const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
     const handleClickOutside = (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        setProfileDropDown(false);
-      }
-    };
+  if (
+    !dropdownRef.current?.contains(e.target) &&
+    !mobileDropdownRef.current?.contains(e.target)
+  ) {
+    setProfileDropDown(false);
+  }
+};
 
     const handleKeyDown = (e) => {
       if (e.key === "Escape") setProfileDropDown(false);
@@ -227,31 +231,108 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className="absolute w-full border-t border-gray-100 bg-white shadow-xl md:hidden">
-          <div className="space-y-2 px-4 pb-6 pt-2">
-            {navLinks.map((link) => (
-              <button
-                key={link.name}
-                type="button"
-                onClick={() => handleNavigation(link.href)}
-                className="block w-full rounded-md px-3 py-3 text-left text-base font-medium text-gray-700 transition hover:bg-blue-50 hover:text-blue-900"
-              >
-                {link.name}
-              </button>
-            ))}
+     
+{/* Mobile Navigation */}
+{isMenuOpen && (
+  <div className="absolute w-full border-t border-gray-100 bg-white shadow-xl md:hidden">
+    <div className="space-y-2 px-4 pb-6 pt-2">
+      {navLinks.map((link) => (
+        <button
+          key={link.name}
+          type="button"
+          onClick={() => handleNavigation(link.href)}
+          className="block w-full rounded-md px-3 py-3 text-left text-base font-medium text-gray-700 transition hover:bg-blue-50 hover:text-blue-900"
+        >
+          {link.name}
+        </button>
+      ))}
 
-            <Link
-              to="/sign-in"
-              onClick={closeMenu}
-              className="mt-4 block rounded-md bg-blue-900 px-3 py-3 text-center text-base font-medium text-white transition hover:bg-blue-800"
+      {isSignedIn ? (
+        <div
+          className="relative mt-4 border-t border-gray-100 pt-4"
+          ref={mobileDropdownRef}
+        >
+          {/* Mobile Profile Icon */}
+          <button
+            type="button"
+            onClick={() =>
+              setProfileDropDown((prev) => !prev)
+            }
+            aria-expanded={profileDropDown}
+            aria-haspopup="menu"
+            className="flex items-center gap-3 rounded-full ring-2 ring-transparent transition hover:ring-blue-900/30 focus:outline-none focus:ring-blue-900"
+          >
+            <img
+              src={user?.imageUrl || "/default-avatar.png"}
+              alt={user?.fullName || "User profile"}
+              className="h-10 w-10 rounded-full object-cover"
+            />
+
+            <span className="text-sm font-semibold text-gray-800">
+              {user?.fullName || "My Account"}
+            </span>
+          </button>
+
+          {/* Mobile Profile Dropdown */}
+          {profileDropDown && (
+            <div
+              role="menu"
+              className="mt-3 w-full rounded-xl border border-gray-100 bg-white py-2 shadow-lg"
             >
-              Enroll Now
-            </Link>
-          </div>
+              <div className="border-b border-gray-100 px-4 py-2.5">
+                <p className="truncate text-sm font-semibold text-gray-900">
+                  {user?.fullName || "Student"}
+                </p>
+
+                <p className="truncate text-xs text-gray-500">
+                  {user?.primaryEmailAddress?.emailAddress}
+                </p>
+              </div>
+
+              <ul className="py-1 text-sm text-gray-700">
+                <li>
+                  <Link
+                    to="/edit-profile"
+                    onClick={() => {
+                      setProfileDropDown(false);
+                      closeMenu();
+                    }}
+                    className="block px-4 py-2 transition hover:bg-gray-50 hover:text-blue-900"
+                  >
+                    Edit Profile
+                  </Link>
+                </li>
+              </ul>
+
+              <div className="border-t border-gray-100 pt-1">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setProfileDropDown(false);
+                    closeMenu();
+                    signOut({ redirectUrl: "/" });
+                  }}
+                  className="block w-full px-4 py-2 text-left text-sm font-medium text-red-600 transition hover:bg-red-50"
+                >
+                  Sign Out
+                </button>
+              </div>
+            </div>
+          )}
         </div>
+      ) : (
+        <Link
+          to="/sign-in"
+          onClick={closeMenu}
+          className="mt-4 block rounded-md bg-blue-900 px-3 py-3 text-center text-base font-medium text-white transition hover:bg-blue-800"
+        >
+          Enroll Now
+        </Link>
       )}
+    </div>
+  </div>
+)}
+
     </nav>
   );
 };
