@@ -4,7 +4,7 @@ export const staff = [
     role: "President of Islami Jamiat Talib UET and Director of JTA",
     description:
       "Currently Involved in Civil Engineering from UET Peshawar",
-    image: "public/images/Mehran.jpeg",
+    image: "/images/Mehran.jpeg",
     socials: [
       { icon: "fab fa-linkedin", hover: "hover:text-blue-700" },
       { icon: "fab fa-github", hover: "hover:text-gray-900" },
@@ -16,7 +16,7 @@ export const staff = [
     role: "General Seceratory Islami Jamiat Talib UET and MD JTA",
     description:
       "Electrical Computing and Ai Engineering 5th semester , Embedded System,  machine learning",
-      image: "public/images/Yahya.jpeg",
+      image: "/images/Yahya.jpeg",
     socials: [
       { icon: "fab fa-linkedin", hover: "hover:text-blue-700" },
       { icon: "fab fa-github", hover: "hover:text-gray-900" },
@@ -27,7 +27,7 @@ export const staff = [
     role: "Incharge JTA",
     description:
       "A Cybersecurity Professional and Penetration Tester at Zerova, working with multiple organizations through security assessments, vulnerability identification, and web application security testing.",
-    image: "public/images/Aqil.jpeg",
+    image: "/images/Aqil.jpeg",
     socials: [
       { icon: "fab fa-linkedin", hover: "hover:text-blue-700" },
       { icon: "fab fa-dribbble", hover: "hover:text-pink-600" },

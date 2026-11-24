@@ -128,7 +128,7 @@ An initiative by Islami Jamiat Talaba, UET Peshawar, to equip students with prac
             <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden rounded-3xl border border-white bg-linear-to-tr from-blue-50 to-sky-50 p-8 shadow-2xl md:aspect-4/3 lg:aspect-square">
 
               <img
-                src="public/images/Logo.jpeg"
+                src="/images/Logo.jpeg"
                 alt="Tech Education"
                 className="h-full w-full -rotate-2 rounded-xl object-cover shadow-lg transition duration-500 hover:rotate-0"
               />
