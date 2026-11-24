@@ -11,7 +11,7 @@ export const courses = [
       "https://placehold.co/1200x600/2563eb/ffffff?text=Full+Stack+Web+Engineering",
     duration: "12 Weeks",
     level: "Beginner",
-    price: "$499",
+    price: "Seats Unavailible",
     bestseller: true,
     lessons: 36,
     projects: 4,
@@ -77,71 +77,71 @@ export const courses = [
     article: null
   },
 
-  {
-    id: 2,
-    slug: "ui-ux-design-masterclass",
-    title: "UI/UX Design Masterclass",
-    category: "Design",
-    description:
-      "Learn Figma, user research, wireframing, and prototyping. Create stunning digital experiences that users love.",
-    image:
-      "https://placehold.co/1200x600/0ea5e9/ffffff?text=UI+UX+Design",
-    duration: "8 Weeks",
-    level: "Intermediate",
-    price: "$399",
-    bestseller: false,
-    lessons: 24,
-    projects: 3,
-    language: "English",
+  // {
+  //   id: 2,
+  //   slug: "ui-ux-design-masterclass",
+  //   title: "UI/UX Design Masterclass",
+  //   category: "Design",
+  //   description:
+  //     "Learn Figma, user research, wireframing, and prototyping. Create stunning digital experiences that users love.",
+  //   image:
+  //     "https://placehold.co/1200x600/0ea5e9/ffffff?text=UI+UX+Design",
+  //   duration: "8 Weeks",
+  //   level: "Intermediate",
+  //   price: "$399",
+  //   bestseller: false,
+  //   lessons: 24,
+  //   projects: 3,
+  //   language: "English",
 
-    overview:
-      "Learn how to design intuitive and visually appealing digital experiences. This course introduces you to user research, wireframing, prototyping, and modern UI design practices.",
+  //   overview:
+  //     "Learn how to design intuitive and visually appealing digital experiences. This course introduces you to user research, wireframing, prototyping, and modern UI design practices.",
 
-    learningOutcomes: [
-      "Understand UI and UX design principles.",
-      "Conduct basic user research.",
-      "Create wireframes and prototypes.",
-      "Design interfaces using Figma.",
-      "Build a professional design portfolio."
-    ],
+  //   learningOutcomes: [
+  //     "Understand UI and UX design principles.",
+  //     "Conduct basic user research.",
+  //     "Create wireframes and prototypes.",
+  //     "Design interfaces using Figma.",
+  //     "Build a professional design portfolio."
+  //   ],
 
-    curriculum: [
-      {
-        title: "Design Fundamentals",
-        topics: [
-          "Introduction to UI/UX",
-          "Design Principles",
-          "Typography and Colors"
-        ]
-      },
-      {
-        title: "User Experience",
-        topics: [
-          "User Research",
-          "User Personas",
-          "User Journeys",
-          "Wireframing"
-        ]
-      },
-      {
-        title: "UI Design with Figma",
-        topics: [
-          "Figma Fundamentals",
-          "Components",
-          "Prototyping",
-          "Responsive Design"
-        ]
-      }
-    ],
+  //   curriculum: [
+  //     {
+  //       title: "Design Fundamentals",
+  //       topics: [
+  //         "Introduction to UI/UX",
+  //         "Design Principles",
+  //         "Typography and Colors"
+  //       ]
+  //     },
+  //     {
+  //       title: "User Experience",
+  //       topics: [
+  //         "User Research",
+  //         "User Personas",
+  //         "User Journeys",
+  //         "Wireframing"
+  //       ]
+  //     },
+  //     {
+  //       title: "UI Design with Figma",
+  //       topics: [
+  //         "Figma Fundamentals",
+  //         "Components",
+  //         "Prototyping",
+  //         "Responsive Design"
+  //       ]
+  //     }
+  //   ],
 
-    requirements: [
-      "Basic computer knowledge.",
-      "Interest in creativity and design.",
-      "A computer or laptop with internet access."
-    ],
+  //   requirements: [
+  //     "Basic computer knowledge.",
+  //     "Interest in creativity and design.",
+  //     "A computer or laptop with internet access."
+  //   ],
 
-    article: null
-  },
+  //   article: null
+  // },
 
   {
     id: 3,
@@ -154,7 +154,7 @@ export const courses = [
       "https://placehold.co/1200x600/8b5cf6/ffffff?text=Data+Science+AI",
     duration: "16 Weeks",
     level: "Advanced",
-    price: "$599",
+    price: "Seats Unavailible",
     bestseller: false,
     lessons: 48,
     projects: 5,
@@ -209,82 +209,82 @@ export const courses = [
     article: null
   },
 
-  {
-    id: 4,
-    slug: "mobile-app-development",
-    title: "Mobile App Development",
-    category: "App Development",
-    description:
-      "Learn to build modern Android and iOS applications using React Native. Create responsive, feature-rich mobile apps.",
-    image:
-      "https://placehold.co/1200x600/16a34a/ffffff?text=Mobile+App+Development",
-    duration: "12 Weeks",
-    level: "Intermediate",
-    price: "$449",
-    bestseller: false,
-    lessons: 36,
-    projects: 4,
-    language: "English",
+  // {
+  //   id: 4,
+  //   slug: "mobile-app-development",
+  //   title: "Mobile App Development",
+  //   category: "App Development",
+  //   description:
+  //     "Learn to build modern Android and iOS applications using React Native. Create responsive, feature-rich mobile apps.",
+  //   image:
+  //     "https://placehold.co/1200x600/16a34a/ffffff?text=Mobile+App+Development",
+  //   duration: "12 Weeks",
+  //   level: "Intermediate",
+  //   price: "$449",
+  //   bestseller: false,
+  //   lessons: 36,
+  //   projects: 4,
+  //   language: "English",
 
-    overview:
-      "Learn mobile application development from the fundamentals to building complete applications. Work with React Native, Expo, APIs, and mobile app deployment.",
+  //   overview:
+  //     "Learn mobile application development from the fundamentals to building complete applications. Work with React Native, Expo, APIs, and mobile app deployment.",
 
-    learningOutcomes: [
-      "Understand mobile application development fundamentals.",
-      "Learn JavaScript and React Native.",
-      "Build cross-platform mobile applications.",
-      "Integrate APIs and backend services.",
-      "Manage application navigation and state.",
-      "Build and deploy a complete mobile app."
-    ],
+  //   learningOutcomes: [
+  //     "Understand mobile application development fundamentals.",
+  //     "Learn JavaScript and React Native.",
+  //     "Build cross-platform mobile applications.",
+  //     "Integrate APIs and backend services.",
+  //     "Manage application navigation and state.",
+  //     "Build and deploy a complete mobile app."
+  //   ],
 
-    curriculum: [
-      {
-        title: "Mobile Development Fundamentals",
-        topics: [
-          "Introduction to Mobile Apps",
-          "JavaScript Fundamentals",
-          "React Fundamentals",
-          "React Native Basics"
-        ]
-      },
-      {
-        title: "Building Mobile Interfaces",
-        topics: [
-          "Components and Styling",
-          "Navigation",
-          "Forms and Validation",
-          "State Management"
-        ]
-      },
-      {
-        title: "Backend Integration",
-        topics: [
-          "REST APIs",
-          "Authentication",
-          "Database Integration",
-          "Working with Device Features"
-        ]
-      },
-      {
-        title: "Final Project",
-        topics: [
-          "Building a Complete App",
-          "Testing and Debugging",
-          "App Optimization",
-          "Deployment"
-        ]
-      }
-    ],
+  //   curriculum: [
+  //     {
+  //       title: "Mobile Development Fundamentals",
+  //       topics: [
+  //         "Introduction to Mobile Apps",
+  //         "JavaScript Fundamentals",
+  //         "React Fundamentals",
+  //         "React Native Basics"
+  //       ]
+  //     },
+  //     {
+  //       title: "Building Mobile Interfaces",
+  //       topics: [
+  //         "Components and Styling",
+  //         "Navigation",
+  //         "Forms and Validation",
+  //         "State Management"
+  //       ]
+  //     },
+  //     {
+  //       title: "Backend Integration",
+  //       topics: [
+  //         "REST APIs",
+  //         "Authentication",
+  //         "Database Integration",
+  //         "Working with Device Features"
+  //       ]
+  //     },
+  //     {
+  //       title: "Final Project",
+  //       topics: [
+  //         "Building a Complete App",
+  //         "Testing and Debugging",
+  //         "App Optimization",
+  //         "Deployment"
+  //       ]
+  //     }
+  //   ],
 
-    requirements: [
-      "Basic computer knowledge.",
-      "Basic JavaScript knowledge is recommended.",
-      "A computer or laptop with internet access."
-    ],
+  //   requirements: [
+  //     "Basic computer knowledge.",
+  //     "Basic JavaScript knowledge is recommended.",
+  //     "A computer or laptop with internet access."
+  //   ],
 
-    article: null
-  },
+  //   article: null
+  // },
 
   {
     id: 5,
@@ -297,7 +297,7 @@ export const courses = [
       "https://placehold.co/1200x600/dc2626/ffffff?text=Cybersecurity",
     duration: "14 Weeks",
     level: "Intermediate",
-    price: "$499",
+    price: "Seats Unavailible",
     bestseller: false,
     lessons: 42,
     projects: 4,
@@ -363,159 +363,159 @@ export const courses = [
     article: null
   },
 
-  {
-    id: 6,
-    slug: "cloud-computing-devops",
-    title: "Cloud Computing & DevOps",
-    category: "Cloud Computing",
-    description:
-      "Learn cloud infrastructure, Docker, CI/CD pipelines, deployment strategies, and modern DevOps practices.",
-    image:
-      "https://placehold.co/1200x600/0284c7/ffffff?text=Cloud+Computing+DevOps",
-    duration: "14 Weeks",
-    level: "Advanced",
-    price: "$549",
-    bestseller: false,
-    lessons: 42,
-    projects: 5,
-    language: "English",
+  // {
+  //   id: 6,
+  //   slug: "cloud-computing-devops",
+  //   title: "Cloud Computing & DevOps",
+  //   category: "Cloud Computing",
+  //   description:
+  //     "Learn cloud infrastructure, Docker, CI/CD pipelines, deployment strategies, and modern DevOps practices.",
+  //   image:
+  //     "https://placehold.co/1200x600/0284c7/ffffff?text=Cloud+Computing+DevOps",
+  //   duration: "14 Weeks",
+  //   level: "Advanced",
+  //   price: "$549",
+  //   bestseller: false,
+  //   lessons: 42,
+  //   projects: 5,
+  //   language: "English",
 
-    overview:
-      "Develop practical cloud computing and DevOps skills. Learn how to deploy applications, manage infrastructure, automate workflows, and build reliable software delivery pipelines.",
+  //   overview:
+  //     "Develop practical cloud computing and DevOps skills. Learn how to deploy applications, manage infrastructure, automate workflows, and build reliable software delivery pipelines.",
 
-    learningOutcomes: [
-      "Understand cloud computing fundamentals.",
-      "Learn Linux and command-line tools.",
-      "Work with Docker containers.",
-      "Build CI/CD pipelines.",
-      "Understand cloud deployment strategies.",
-      "Monitor and maintain deployed applications."
-    ],
+  //   learningOutcomes: [
+  //     "Understand cloud computing fundamentals.",
+  //     "Learn Linux and command-line tools.",
+  //     "Work with Docker containers.",
+  //     "Build CI/CD pipelines.",
+  //     "Understand cloud deployment strategies.",
+  //     "Monitor and maintain deployed applications."
+  //   ],
 
-    curriculum: [
-      {
-        title: "Cloud Fundamentals",
-        topics: [
-          "Introduction to Cloud Computing",
-          "Cloud Service Models",
-          "Cloud Infrastructure",
-          "Virtual Machines"
-        ]
-      },
-      {
-        title: "Linux and Containers",
-        topics: [
-          "Linux Fundamentals",
-          "Shell Commands",
-          "Docker Fundamentals",
-          "Container Management"
-        ]
-      },
-      {
-        title: "DevOps Practices",
-        topics: [
-          "Git and GitHub",
-          "CI/CD Fundamentals",
-          "Automated Testing",
-          "Deployment Pipelines"
-        ]
-      },
-      {
-        title: "Cloud Deployment",
-        topics: [
-          "Cloud Hosting",
-          "Application Deployment",
-          "Monitoring",
-          "Final DevOps Project"
-        ]
-      }
-    ],
+  //   curriculum: [
+  //     {
+  //       title: "Cloud Fundamentals",
+  //       topics: [
+  //         "Introduction to Cloud Computing",
+  //         "Cloud Service Models",
+  //         "Cloud Infrastructure",
+  //         "Virtual Machines"
+  //       ]
+  //     },
+  //     {
+  //       title: "Linux and Containers",
+  //       topics: [
+  //         "Linux Fundamentals",
+  //         "Shell Commands",
+  //         "Docker Fundamentals",
+  //         "Container Management"
+  //       ]
+  //     },
+  //     {
+  //       title: "DevOps Practices",
+  //       topics: [
+  //         "Git and GitHub",
+  //         "CI/CD Fundamentals",
+  //         "Automated Testing",
+  //         "Deployment Pipelines"
+  //       ]
+  //     },
+  //     {
+  //       title: "Cloud Deployment",
+  //       topics: [
+  //         "Cloud Hosting",
+  //         "Application Deployment",
+  //         "Monitoring",
+  //         "Final DevOps Project"
+  //       ]
+  //     }
+  //   ],
 
-    requirements: [
-      "Basic programming knowledge.",
-      "Basic command-line knowledge is recommended.",
-      "A computer or laptop with internet access."
-    ],
+  //   requirements: [
+  //     "Basic programming knowledge.",
+  //     "Basic command-line knowledge is recommended.",
+  //     "A computer or laptop with internet access."
+  //   ],
 
-    article: null
-  },
+  //   article: null
+  // },
 
-  {
-    id: 7,
-    slug: "digital-marketing-seo",
-    title: "Digital Marketing & SEO",
-    category: "Digital Marketing",
-    description:
-      "Master SEO, social media marketing, content strategy, online advertising, and analytics to grow businesses online.",
-    image:
-      "https://placehold.co/1200x600/f59e0b/ffffff?text=Digital+Marketing",
-    duration: "8 Weeks",
-    level: "Beginner",
-    price: "$299",
-    bestseller: false,
-    lessons: 24,
-    projects: 3,
-    language: "English",
+  // {
+  //   id: 7,
+  //   slug: "digital-marketing-seo",
+  //   title: "Digital Marketing & SEO",
+  //   category: "Digital Marketing",
+  //   description:
+  //     "Master SEO, social media marketing, content strategy, online advertising, and analytics to grow businesses online.",
+  //   image:
+  //     "https://placehold.co/1200x600/f59e0b/ffffff?text=Digital+Marketing",
+  //   duration: "8 Weeks",
+  //   level: "Beginner",
+  //   price: "$299",
+  //   bestseller: false,
+  //   lessons: 24,
+  //   projects: 3,
+  //   language: "English",
 
-    overview:
-      "Learn how businesses attract and engage customers through digital channels. Explore search engine optimization, social media, content marketing, paid advertising, and campaign analytics.",
+  //   overview:
+  //     "Learn how businesses attract and engage customers through digital channels. Explore search engine optimization, social media, content marketing, paid advertising, and campaign analytics.",
 
-    learningOutcomes: [
-      "Understand digital marketing fundamentals.",
-      "Learn search engine optimization.",
-      "Develop social media marketing strategies.",
-      "Create effective marketing content.",
-      "Understand online advertising campaigns.",
-      "Measure marketing performance using analytics."
-    ],
+  //   learningOutcomes: [
+  //     "Understand digital marketing fundamentals.",
+  //     "Learn search engine optimization.",
+  //     "Develop social media marketing strategies.",
+  //     "Create effective marketing content.",
+  //     "Understand online advertising campaigns.",
+  //     "Measure marketing performance using analytics."
+  //   ],
 
-    curriculum: [
-      {
-        title: "Digital Marketing Fundamentals",
-        topics: [
-          "Introduction to Digital Marketing",
-          "Marketing Strategies",
-          "Customer Research",
-          "Target Audience Analysis"
-        ]
-      },
-      {
-        title: "Search Engine Optimization",
-        topics: [
-          "SEO Fundamentals",
-          "Keyword Research",
-          "On-Page SEO",
-          "Technical SEO"
-        ]
-      },
-      {
-        title: "Social Media Marketing",
-        topics: [
-          "Social Media Platforms",
-          "Content Planning",
-          "Social Media Campaigns",
-          "Audience Engagement"
-        ]
-      },
-      {
-        title: "Advertising and Analytics",
-        topics: [
-          "Paid Advertising Fundamentals",
-          "Campaign Management",
-          "Google Analytics",
-          "Marketing Performance"
-        ]
-      }
-    ],
+  //   curriculum: [
+  //     {
+  //       title: "Digital Marketing Fundamentals",
+  //       topics: [
+  //         "Introduction to Digital Marketing",
+  //         "Marketing Strategies",
+  //         "Customer Research",
+  //         "Target Audience Analysis"
+  //       ]
+  //     },
+  //     {
+  //       title: "Search Engine Optimization",
+  //       topics: [
+  //         "SEO Fundamentals",
+  //         "Keyword Research",
+  //         "On-Page SEO",
+  //         "Technical SEO"
+  //       ]
+  //     },
+  //     {
+  //       title: "Social Media Marketing",
+  //       topics: [
+  //         "Social Media Platforms",
+  //         "Content Planning",
+  //         "Social Media Campaigns",
+  //         "Audience Engagement"
+  //       ]
+  //     },
+  //     {
+  //       title: "Advertising and Analytics",
+  //       topics: [
+  //         "Paid Advertising Fundamentals",
+  //         "Campaign Management",
+  //         "Google Analytics",
+  //         "Marketing Performance"
+  //       ]
+  //     }
+  //   ],
 
-    requirements: [
-      "Basic computer knowledge.",
-      "Interest in marketing and communication.",
-      "A computer or laptop with internet access."
-    ],
+  //   requirements: [
+  //     "Basic computer knowledge.",
+  //     "Interest in marketing and communication.",
+  //     "A computer or laptop with internet access."
+  //   ],
 
-    article: null
-  },
+  //   article: null
+  // },
 
   {
     id: 8,
@@ -528,7 +528,7 @@ export const courses = [
       "https://placehold.co/1200x600/db2777/ffffff?text=Graphic+Design",
     duration: "10 Weeks",
     level: "Beginner",
-    price: "$349",
+    price: "Seats Unavailible",
     bestseller: false,
     lessons: 30,
     projects: 4,
@@ -594,82 +594,82 @@ export const courses = [
     article: null
   },
 
-  {
-    id: 9,
-    slug: "python-programming-fundamentals",
-    title: "Python Programming Fundamentals",
-    category: "Programming",
-    description:
-      "Start your programming journey with Python. Learn programming logic, data structures, object-oriented programming, and practical automation.",
-    image:
-      "https://placehold.co/1200x600/7c3aed/ffffff?text=Python+Programming",
-    duration: "10 Weeks",
-    level: "Beginner",
-    price: "$349",
-    bestseller: false,
-    lessons: 30,
-    projects: 4,
-    language: "English",
+  // {
+  //   id: 9,
+  //   slug: "python-programming-fundamentals",
+  //   title: "Python Programming Fundamentals",
+  //   category: "Programming",
+  //   description:
+  //     "Start your programming journey with Python. Learn programming logic, data structures, object-oriented programming, and practical automation.",
+  //   image:
+  //     "https://placehold.co/1200x600/7c3aed/ffffff?text=Python+Programming",
+  //   duration: "10 Weeks",
+  //   level: "Beginner",
+  //   price: "$Seats Unavailible",
+  //   bestseller: false,
+  //   lessons: 30,
+  //   projects: 4,
+  //   language: "English",
 
-    overview:
-      "Build a strong programming foundation with Python. Learn essential programming concepts, write clean code, solve problems, and develop practical applications.",
+  //   overview:
+  //     "Build a strong programming foundation with Python. Learn essential programming concepts, write clean code, solve problems, and develop practical applications.",
 
-    learningOutcomes: [
-      "Understand Python programming fundamentals.",
-      "Work with variables and data types.",
-      "Use conditions, loops, and functions.",
-      "Understand lists, dictionaries, and sets.",
-      "Learn object-oriented programming.",
-      "Build practical Python applications."
-    ],
+  //   learningOutcomes: [
+  //     "Understand Python programming fundamentals.",
+  //     "Work with variables and data types.",
+  //     "Use conditions, loops, and functions.",
+  //     "Understand lists, dictionaries, and sets.",
+  //     "Learn object-oriented programming.",
+  //     "Build practical Python applications."
+  //   ],
 
-    curriculum: [
-      {
-        title: "Python Fundamentals",
-        topics: [
-          "Introduction to Python",
-          "Variables and Data Types",
-          "Operators",
-          "Input and Output"
-        ]
-      },
-      {
-        title: "Programming Logic",
-        topics: [
-          "Conditional Statements",
-          "Loops",
-          "Functions",
-          "Problem Solving"
-        ]
-      },
-      {
-        title: "Data Structures and OOP",
-        topics: [
-          "Lists and Tuples",
-          "Dictionaries and Sets",
-          "Object-Oriented Programming",
-          "Classes and Objects"
-        ]
-      },
-      {
-        title: "Practical Python Projects",
-        topics: [
-          "File Handling",
-          "Error Handling",
-          "Basic Automation",
-          "Final Python Project"
-        ]
-      }
-    ],
+  //   curriculum: [
+  //     {
+  //       title: "Python Fundamentals",
+  //       topics: [
+  //         "Introduction to Python",
+  //         "Variables and Data Types",
+  //         "Operators",
+  //         "Input and Output"
+  //       ]
+  //     },
+  //     {
+  //       title: "Programming Logic",
+  //       topics: [
+  //         "Conditional Statements",
+  //         "Loops",
+  //         "Functions",
+  //         "Problem Solving"
+  //       ]
+  //     },
+  //     {
+  //       title: "Data Structures and OOP",
+  //       topics: [
+  //         "Lists and Tuples",
+  //         "Dictionaries and Sets",
+  //         "Object-Oriented Programming",
+  //         "Classes and Objects"
+  //       ]
+  //     },
+  //     {
+  //       title: "Practical Python Projects",
+  //       topics: [
+  //         "File Handling",
+  //         "Error Handling",
+  //         "Basic Automation",
+  //         "Final Python Project"
+  //       ]
+  //     }
+  //   ],
 
-    requirements: [
-      "Basic computer knowledge.",
-      "No previous programming experience required.",
-      "A computer or laptop with internet access."
-    ],
+  //   requirements: [
+  //     "Basic computer knowledge.",
+  //     "No previous programming experience required.",
+  //     "A computer or laptop with internet access."
+  //   ],
 
-    article: null
-  }
+  //   article: null
+  // }
 
   
 ];

@@ -6,6 +6,7 @@ import Reviews from '../components/Reviews'
 import Footer from '../components/Footer'
 import ReviewForm from '../components/ReviewForm'
 import RecentAnnouncements from '../components/RecentAnnouncements'
+import Staff from '../components/Staff'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero />
       <RecentAnnouncements />
       <Courses />
+      <Staff />
       <Instructors />
       <Reviews />
       <ReviewForm />

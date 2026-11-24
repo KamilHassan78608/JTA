@@ -1,4 +1,3 @@
-
 import { useAuth, useClerk, useUser } from "@clerk/react";
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -106,7 +105,7 @@ const Navbar = () => {
             </div>
 
             <span className="text-xl font-bold tracking-tight text-gray-900">
-              Jameel Tech
+              Jamiat Tech
             </span>
           </button>
 

@@ -1,44 +1,5 @@
-
 import { motion } from "framer-motion";
-
-const instructors = [
-  {
-    name: "Sarah Connor",
-    role: "Lead Web Developer",
-    description:
-      "Ex-Google engineer with 10+ years of experience building scalable web applications. Passionate about teaching modern JS frameworks.",
-    image: "https://placehold.co/200x200/cccccc/333333?text=SC",
-    socials: [
-      { icon: "fab fa-linkedin", hover: "hover:text-blue-700" },
-      { icon: "fab fa-github", hover: "hover:text-gray-900" },
-      { icon: "fab fa-twitter", hover: "hover:text-sky-500" },
-    ],
-  },
-  {
-    name: "John Doe",
-    role: "AI & Data Scientist",
-    description:
-      "Data Science Ph.D. who has built predictive models for Fortune 500 companies. Makes complex math accessible to everyone.",
-    image: "https://placehold.co/200x200/cccccc/333333?text=JD",
-    topRated: true,
-    socials: [
-      { icon: "fab fa-linkedin", hover: "hover:text-blue-700" },
-      { icon: "fab fa-github", hover: "hover:text-gray-900" },
-    ],
-  },
-  {
-    name: "Emily Chen",
-    role: "Senior UX Designer",
-    description:
-      "Award-winning designer focusing on user psychology and accessibility. Helps students build world-class design portfolios.",
-    image: "https://placehold.co/200x200/cccccc/333333?text=EC",
-    socials: [
-      { icon: "fab fa-linkedin", hover: "hover:text-blue-700" },
-      { icon: "fab fa-dribbble", hover: "hover:text-pink-600" },
-      { icon: "fab fa-behance", hover: "hover:text-blue-600" },
-    ],
-  },
-];
+import { instructors } from "../data/instructor";
 
 // Animation variants
 const fadeUp = {

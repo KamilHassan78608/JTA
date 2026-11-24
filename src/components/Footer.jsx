@@ -97,17 +97,17 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
                 <i className="fas fa-map-marker-alt mr-2 w-4 text-center"></i>
-                Tech Park, Building A
+                UET Peshawar
               </li>
 
               <li>
                 <i className="fas fa-envelope mr-2 w-4 text-center"></i>
-                hello@jameeltech.edu
+                yahyakhanwardag12@gmail.com
               </li>
 
               <li>
                 <i className="fas fa-phone mr-2 w-4 text-center"></i>
-                +1 (555) 123-4567
+                +92 340 9478627
               </li>
             </ul>
           </div>
@@ -116,7 +116,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-xs text-gray-500">
-          © 2024 Jameel Tech Academy. All rights reserved. Concept Design.
+          © 2026 Jameel Tech Academy. All rights reserved. Concept Design.
         </div>
 
       </div>

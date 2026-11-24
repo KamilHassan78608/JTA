@@ -5,8 +5,8 @@ import { SiReact } from "react-icons/si";
 
 const Hero = () => {
   const stats = [
-    { number: "500+", label: "Students Enrolled" },
-    { number: "12+", label: "Expert Instructors" },
+    { number: "100+", label: "Students Enrolled" },
+    { number: "6+", label: "Expert Instructors" },
     { number: "95%", label: "Placement Rate" },
   ];
 
@@ -55,7 +55,7 @@ const Hero = () => {
               variants={fadeUp}
               className="mb-6 inline-block rounded-full border border-blue-100 bg-blue-50 px-4 py-1.5 text-sm font-semibold text-blue-900 shadow-sm"
             >
-              🚀 Launching Careers in Tech
+              Initiative By Islami Jamiat Talba Uet Peshawar
             </motion.div>
 
             {/* Heading */}
@@ -65,7 +65,7 @@ const Hero = () => {
             >
               Master the Future with{" "}
               <span className="bg-linear-to-r from-blue-900 to-sky-500 bg-clip-text text-transparent">
-                Jameel Tech Academy
+                Jamiat Tech Academy
               </span>
             </motion.h1>
 
@@ -74,9 +74,8 @@ const Hero = () => {
               variants={fadeUp}
               className="mx-auto mb-8 max-w-2xl text-lg leading-relaxed text-gray-600 lg:mx-0"
             >
-              Empowering the next generation of innovators. Learn highly
-              sought-after skills in coding, design, and AI from industry
-              experts. Your journey to a successful tech career starts here.
+              
+An initiative by Islami Jamiat Talaba, UET Peshawar, to equip students with practical tech skills and prepare them for the professional market.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -129,7 +128,7 @@ const Hero = () => {
             <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden rounded-3xl border border-white bg-linear-to-tr from-blue-50 to-sky-50 p-8 shadow-2xl md:aspect-4/3 lg:aspect-square">
 
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo985vT5Mknx2oTVgrpmkyZKFjF3WmYD0jQSwJelwkfq-Q3kjrbspnH50&s=10"
+                src="public/images/Logo.jpeg"
                 alt="Tech Education"
                 className="h-full w-full -rotate-2 rounded-xl object-cover shadow-lg transition duration-500 hover:rotate-0"
               />
