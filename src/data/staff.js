@@ -1,7 +1,7 @@
 export const staff = [
   {
     name: "Mehran khan",
-    role: "President of Islami Jamiat Talib UET and Director of JTA",
+    role: "President of Islami Jamiat Talaba UET and Director of JTA",
     description:
       "Currently Involved in Civil Engineering from UET Peshawar",
     image: "/images/Mehran.jpeg",
