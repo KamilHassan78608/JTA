@@ -13,7 +13,7 @@ export const staff = [
   },
   {
     name: "Muhammad Yahya Fayaz",
-    role: "General Seceratory Islami Jamiat Talib UET and MD JTA",
+    role: "General Seceratory Islami Jamiat Talaba UET and MD JTA",
     description:
       "Electrical Computing and Ai Engineering 5th semester , Embedded System,  machine learning",
       image: "/images/Yahya.jpeg",
